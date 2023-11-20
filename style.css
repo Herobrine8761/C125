@@ -1,0 +1,30 @@
+h3{
+    font-size: 25px !important;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.btn-success{
+    font-weight: 550;
+    letter-spacing: 1.65px;
+}
+.btn-success:hover{
+    transition: 2s;
+    background-color: red;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    border: dotted 2px;
+    border-radius: 15px;
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px blue;}
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
